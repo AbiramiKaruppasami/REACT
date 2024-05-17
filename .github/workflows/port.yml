@@ -16,8 +16,11 @@ jobs:
       - name: Run npm build
         run: npm run build
 
-      - name: List the directories
-        run: ls
+      - name: List directories
+        run: ls -R
+
+      - name: List public/images contents
+        run: ls -R public/images
 
       - name: Print working directory
         run: pwd
