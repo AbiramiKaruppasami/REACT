@@ -3,7 +3,7 @@ import React from 'react';
 function Home() {
   return (
     <div style={{
-      backgroundImage: `url('./images/Home.jpeg')`, // Adjust the path to your image
+      backgroundImage: `url('/images/Home.jpeg')`, // Correct path
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       height: '100vh',
